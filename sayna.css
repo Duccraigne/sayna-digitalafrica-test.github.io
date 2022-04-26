@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Libre Bodoni', serif;
+}
+header{
+height: 60vh;
+  background: url(https://images.thedirect.com/media/article_full/Spider-man-logos.jpg);
+background-position: center;
+color: #fff;
+text-align: center;
+}
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+header nav a{
+  color: yellow;
+  margin-right: 10px;
+  text-align: right;
+}
+header nav a:hover{
+  color: white;
+}
+header .principal h4{
+  padding: 20px;  
+}
+
+.premier_banc{
+  background-color: #123f5e;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+} 
+.premier_banc .gauche{
+  width: 60%;
+  margin-right: 15px;
+}
+
+.Innovations{
+  padding: 30px;
+  background: url(https://actualitte.com/uploads/images/amazing-spider-man-2-electro-fight-664f0b79-fa85-4a64-bdf7-d1ae3420c19a.jpg);
+  background-position: center;
+  color: #fff;
+}
+
+.Innovations h1,
+.Innovations p {
+  text-align: center;
+}
+
+.Innovations .Innovations-zones{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Innovations .Innovations-zones .zones{
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  Border: 1px solid yellow;
+  border-radius: 50%;
+}
+
+.Innovations .Innovations-zones .zones:hover{
+  color: green;
+  cursor: pointer;
+}
+
+.Innovations .Innovations-zones .zones img {
+  height: 60px;
+}
+
+.Sponsors {
+  padding: 20px;
+  background-color: #55f2222e 
+  padding-bottom: 30px;
+  color: green;
+}
+
+.Sponsors h1 {
+  text-align: center;
+}
+
+.Sponsors .Sponsors-images {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.Sponsors .Sponsors-images p {
+  margin-right: 30px;
+}
+
+footer {
+  background-color: #18212b;
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .médias-sociaux {
+  display: flex;
+}
+
+footer .médias-sociaux p {
+  margin-right: 15px;
+  Border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 810px){
+  .premier_banc .gauche{
+  width: 100%;
+}
+
+.premier_banc .droite{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
